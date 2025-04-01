@@ -26,7 +26,7 @@ function App() {
       }}
       // close={() => setOpen(false)}        
       // open={open} 
-      index={index}
+      index={index} 
       open= { index>= 0}
       close={()=> setIndex(-1)}
       slides={slides} 
